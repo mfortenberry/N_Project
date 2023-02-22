@@ -43,7 +43,7 @@ function Home() {
                   />
             </Carousel.Caption>
           </Carousel.Item>
-          <Carousel.Item interval={2000}>
+          <Carousel.Item interval={4000}>
             <img
               className="d-block w-100"
               src={pic3}

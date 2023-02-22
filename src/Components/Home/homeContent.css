@@ -62,10 +62,6 @@
 @media (min-width: 990px) {
 .homeContent {
   width: 70.8%;
-  /* margin-right: 300px; */
-  /* margin-bottom: 150px; */
-  /* z-index: inherit; */
-/* background: transparent;  */
 }
 
 .homeContent > h1 {

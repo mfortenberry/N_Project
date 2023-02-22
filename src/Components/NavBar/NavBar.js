@@ -10,7 +10,6 @@ const NavBar = () => {
   return (
 <div className={classes.NavBar}>
     <Logo />
-  
    <div className='NavBar'>
     <MobileNavigation style={{right:0}} />
     <Navigation />
