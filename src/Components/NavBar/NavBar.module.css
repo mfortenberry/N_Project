@@ -30,7 +30,7 @@
         position: absolute;
         right: 5%;
         cursor: pointer;
-        color: green;
+        color: blue;
     }
     .NavBar ul {
         display: flex;

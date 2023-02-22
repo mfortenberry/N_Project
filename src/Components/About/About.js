@@ -1,5 +1,6 @@
 import React from 'react'
 import "./about.css"
+import {motion} from "framer-motion"
 import image1 from "../Images/WhatsApp Image3.jpg"
 function About() {
   return (
@@ -14,7 +15,8 @@ function About() {
         </div>
         </div>
         <div className='aboutImage'>
-            <img src={image1} alt="" />
+        <motion.img src={image1} alt="" 
+          whileHover={{scale: 1.1, y: 0}}/>
         </div>
         
     </div>
