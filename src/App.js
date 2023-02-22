@@ -19,7 +19,7 @@ function App() {
       <About />
       {/* <Clients/> */}
       <Services />
-      <Careers />
+      {/* <Careers /> */}
       <WithUs />
       <ContactUs />
     </div>

@@ -24,10 +24,10 @@ const NavLinks = (props) => {
           
            <Link to ="#services" smooth>SERVICES</Link>
            </li>
-           <li 
+           {/* <li 
            onClick={() => props.isMobile && props.closeMobileMenue()}>
             <Link to ="#careers" smooth>CAREERS</Link>
-             </li>
+             </li> */}
             
            <li
             onClick={() => props.isMobile && props.closeMobileMenue()}>

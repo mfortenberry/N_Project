@@ -9,8 +9,7 @@
 }
 
 .homeContent > h1 {
-    /* color: blue; */
-    color: #00A551;
+    color: blue;
     font-size: 30px;
     font-weight: 400;
     letter-spacing: normal;
@@ -40,7 +39,7 @@
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
-  background: #00A551;
+  background-color: blue;
   padding: 10px;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   border-radius: 5px;

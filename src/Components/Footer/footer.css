@@ -15,7 +15,7 @@ margin: 20px 20px;
 .footerList >p {
     margin-bottom: 0px;
     font-size: 22px;
-    color:  #00A551;
+    color: blue;
     
 }
 .footerList a {
@@ -23,7 +23,7 @@ margin: 20px 20px;
     text-decoration: none;
 }
 .footerList a:hover {
-    color: #00A551;
+    color:blue;
 }
 .footerConainer {
     border-bottom: 1px solid gray;
@@ -38,7 +38,7 @@ margin: 20px 20px;
     margin: 8px;
     font-size: 25px;
     cursor: pointer;
-    color: #00A551;
+    color: blue;
     text-decoration: none;
 }
 .icon:hover {
