@@ -9,14 +9,12 @@ function About() {
         <h1>What Makes Us</h1>
         <p className='title'>Different?</p>
         <div className='aboutDescription'>
-        <p>Excellerent as a supporter of the UN Sustainable Development Goals has made a conscious decision to invest in a viable but historically underdeveloped country in Ethiopia to help develop local capacity, create technology jobs, and encourage higher education in technology while providing cost-effective solutions to our global clients at the uncompromised level of quality.</p>
-        <p>We create value for the businesses we serve on two fronts, viz. solutions driven by Design Thinking and by application of new technologies and business models to improve customer experience and achieve operational resilience.</p>
-        <p>Customer-centricity is the central theme of everything we do and we leverage our expertise in futuristic innovations offering future-proof solutions that helps business balance digital transformation with sustainability.</p>
+        <p>Our unwavering commitment to customer satisfaction. We believe that every customer deserves the highest level of service and attention, and we go above and beyond to ensure that their needs are met. Our team is comprised of experts in their respective fields who are dedicated to delivering exceptional results. We also invest in the latest technologies and innovations to stay ahead of the curve and provide our customers with the best possible solutions. At our core, we believe that our success is measured by the success of our clients, and we strive to build long-lasting partnerships based on mutual trust and respect.</p>
         </div>
         </div>
         <div className='aboutImage'>
-        <motion.img src={image1} alt="" 
-          whileHover={{scale: 1.1, y: 0}}/>
+        {/* <motion.img src={image1} alt="" 
+          whileHover={{scale: 1.1, y: 0}}/> */}
         </div>
         
     </div>

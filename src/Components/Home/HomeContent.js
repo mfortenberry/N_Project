@@ -5,15 +5,16 @@ import "./homeContent.css"
 function HomeContent(props) {
   return (
     <div className='homeContent'>
-        <h1>{props.hint}</h1>
+        {/* <h1>{props.hint}</h1> */}
         <motion.p 
-        initial= {{scale: 0}}
+        initial= {{scale: 0.3}}
         animate= {{scale: 1}}
         transition= {{duration: 3}} 
         className='title'>{props.title}</motion.p>
         <p className='description'>{props.description}</p>
-        <Link to={props.href}>{props.button}
-        </Link>
+        {/* <Link to="#about" smooth>{props.button}</Link> */}
+        
+        
        {/* <a href={props.href}>{props.button}</a> */}
     </div>
   )

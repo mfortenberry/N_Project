@@ -5,12 +5,18 @@
 }
 
 .d-block {
-    height: 700px; 
+    height: 450px; 
     max-width: 100%;
     background-position: center center;
     background-size: contain;
     box-sizing: border-box;
     background-repeat: no-repeat;
-   
     
+    
+}
+
+@media (min-width: 728px) {
+    .d-block {
+        height: 700px; 
+    }
 }
