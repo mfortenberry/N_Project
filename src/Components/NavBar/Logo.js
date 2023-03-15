@@ -1,5 +1,5 @@
 import React from 'react'
-import pic4 from "../Images/WhatsApp-Image11.jpg"
+import pic4 from "../Images/logo.jpg"
 import {HashLink as Link} from "react-router-hash-link"
 import "./logo.css"
 

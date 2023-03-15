@@ -11,32 +11,32 @@ function Footer() {
     <div className='footer'>
         <div className='footerConainer'>
         <div className='footerList' >
-            <p><u>Explore our website</u></p>
+            <p>Explore our website</p>
             <Link to="#home" smooth> Home </Link>
             <Link to="#about" smooth> About Us </Link>
             <Link to="#services"> Services </Link>
             <Link to="#withus"> Working with Us </Link>
             
         </div>
-        <div className='footerList'>
+        {/* <div className='footerList'>
             <p><u>Important for you</u></p>
             <Link to="#careers"> Careers </Link>
             <Link to="contactus"> Contact Us </Link>
             <Link to="contactus"> Contact Us </Link>
-        </div>
+        </div> */}
 
-        <div className='footerList'>
+        {/* <div className='footerList'>
             <p><u> Follow us on</u></p>
             <Link to="careers"> Linkedin </Link>
             <Link to="contactUs"> Facebook </Link>
             <Link to="contactUs"> Telegram</Link>
             <Link to="contactUs"> Instgram</Link>
-        </div>
+        </div> */}
         </div>
         <div className='footerIcons'>
         <a href="https://linkedin.com/in/hayat-jemal" target="_blank"><BsLinkedin  className='icon'/></a>
-        <a href="https://linkedin.com/in/hayat-jemal" target="_blank"><ImFacebook2  className='icon'/></a>
-        <a href="https://linkedin.com/in/hayat-jemal" target="_blank"><FaInstagramSquare className='icon'/></a>
+        {/* <a href="https://linkedin.com/in/hayat-jemal" target="_blank"><ImFacebook2  className='icon'/></a>
+        <a href="https://linkedin.com/in/hayat-jemal" target="_blank"><FaInstagramSquare className='icon'/></a> */}
 
         {/* <Link to={{ pathname: "https://linkedin.com/in/hayat-jemal" }} target="_blank"><BsLinkedin  className='icon'/></Link>
             <Link to="contactUs"><ImFacebook2  className='icon'/></Link>
