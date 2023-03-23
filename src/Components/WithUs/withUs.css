@@ -10,15 +10,16 @@
   font-size: 42px;
   font-weight: 400;
 }
-.withUs >h2 {
+.withUs > h2 {
     font-size:40px;
     font-weight: 700;
     letter-spacing: 0.1ch;
-   color: blue;
+   color: black;
 }
 
 
 .withUsTitle {
+    padding: 20px;
     font-size: 1.2em;
     font-weight: 700;
 
@@ -54,8 +55,8 @@
     border-radius: 8px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     align-items: center;
-
 } 
+
 @media (min-width:720px) {
     .withUsDescWrapper {
         padding: 0 90px;

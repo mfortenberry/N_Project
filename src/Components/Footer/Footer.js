@@ -10,14 +10,14 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='footerConainer'>
-        <div className='footerList' >
+        {/* <div className='footerList' >
             <p>Explore our website</p>
             <Link to="#home" smooth> Home </Link>
             <Link to="#about" smooth> About Us </Link>
             <Link to="#services"> Services </Link>
             <Link to="#withus"> Working with Us </Link>
             
-        </div>
+        </div> */}
         {/* <div className='footerList'>
             <p><u>Important for you</u></p>
             <Link to="#careers"> Careers </Link>
@@ -45,7 +45,7 @@ function Footer() {
             
         </div>
         <div className='footerCopyright'>
-            <p>Copyright Ⓒ All rights reserved | Developed by Hayat</p>
+            <p>Copyright Ⓒ All rights reserved | Developed by Noorest Solutions</p>
         </div>
         
     </div>

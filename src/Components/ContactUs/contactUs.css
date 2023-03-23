@@ -1,5 +1,5 @@
 .contactUs {
-padding-top: 20px;
+padding-top: 5px;
 }
 .container >h2 {
     font-size: 40px;
@@ -11,8 +11,8 @@ padding-top: 20px;
     font-weight: 600;
 }
 .btn {
-    background-color:blue !important;
-    border: blue !important;
+    background-color:black !important;
+    border: black !important;
 }
 .btn:hover {
     background-color: rgb(193, 32, 32) !important;

@@ -20,7 +20,7 @@ export const ContactUs = () => {
     }, (error) => {
         console.log("failed" ,error.text);
     },);
-    setToSend({user_name: '',  user_email: '', message: ''}) 
+    setToSend({user_name: '', user_email: '', user_company: '', message: ''}) 
 };
 
  const handleChange = (e) => {
@@ -49,6 +49,15 @@ export const ContactUs = () => {
       </div>
       <div className="mb-3">
       <label className="form-label">Email</label>
+      <input className="form-control" 
+             type="email" 
+             name="user_email" 
+             required=""
+             value={toSend.user_email}
+             onChange={handleChange}/>
+      </div>
+      <div className="mb-3">
+      <label className="form-label">Company</label>
       <input className="form-control" 
              type="email" 
              name="user_email" 
