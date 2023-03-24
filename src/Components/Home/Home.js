@@ -20,11 +20,8 @@ function Home() {
               alt="First slide"
             />
             <Carousel.Caption className='carouselCaption'>
-            <HomeContent 
-                  //hint = "Announcing CIGNEX, Excellerent merge with Relevance Lab "
-                  title = "Build cost-effective remote team with experienced talents." 
-                 // description = "Global delivery footprint now spans North America, Ethiopia & India"
-                  
+            <HomeContent  
+                  title = "NOOREST SOLUTIONS, Build cost-effective remote team with experienced talents." 
                   button = "Read More"
                   />
             </Carousel.Caption>
